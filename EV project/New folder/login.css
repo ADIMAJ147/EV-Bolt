@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.montserrat {
+font-family: 'Montserrat', sans-serif;
+}
+
+*
+{
+    font-family:Montserrat;
+}
+a
+{
+    color:black;
+    text-decoration:none;
+}
+
+.nav{
+    background: rgba(0, 0, 0, 0.33);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.volt{ 
+    margin-left: -10px;
+    margin-top: 0px;
+}
+.logo{
+    display: flex;
+
+}
+.text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+fieldset
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    border-radius: 20px; 
+    border:5px solid black;
+}
+.box
+{
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 41px;
+    width: 484px;
+}
+
+
+.description
+{
+    text-align:center;
+}
+.heading
+{
+    width: 20rem;
+}
+.sign-in
+{
+    border: none;
+    background-color: #979797;
+    padding: 5px;
+    margin: 10px 0px;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 35%;
+}
+.inputs
+{
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0% 6%;
+}
+
+input{
+    border:2px solid black;
+    border-radius:5px;
+    width:87%;
+    height:35px;
+    background-color: #B5B5B5;
+}
+
+.login
+{
+    margin: 2% 25%;
+    border-radius: 10px;
+}
+.options
+{
+    display:flex;
+    padding-left:20px;
+   
+}
+.link
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+h5{
+    font-size: 10%;
+    
+}
+.left
+{
+    margin-left: -6%;
+}
+.right
+{
+    margin-left: 26%;
+}
+h4{
+    text-align: center;
+    margin:0;
+}
+.social
+{
+ display: flex;
+ justify-content:center;
+ align-items: center
+} 
+.social a
+{
+ padding:10px;
+ margin:15px;
+ font-size:20px;
+ 
+} 
+
